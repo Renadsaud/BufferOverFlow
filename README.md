@@ -10,6 +10,9 @@ a buffer for log-in credentials may be designed to expect username and password 
 # Buffer Overflow Attack
 Attackers exploit buffer overflow issues by overwriting the memory of an application. This changes the execution path of the program, triggering a response that damages files or exposes private information. For example, an attacker may introduce extra code, sending new instructions to the application to gain access to IT systems.
 
+<div>
+  <img src="https://i.ibb.co/bbTgGHT/What-is-a-Buffer-Overflow-Attack-and-How-to-Prevent-It.jpg" alt="What-is-a-Buffer-Overflow-Attack-and-How-to-Prevent-It" border="0">
+  
 # Types of Buffer Overflow Attacks
 Stack-based buffer overflows are more common, and leverage stack memory that only exists during the execution time of a function.
 
