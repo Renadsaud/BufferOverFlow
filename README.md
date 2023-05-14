@@ -15,14 +15,14 @@ Stack-based buffer overflows are more common, and leverage stack memory that onl
 
 Heap-based attacks are harder to carry out and involve flooding the memory space allocated for a program beyond memory used for current runtime operations.
 
-# This project consists of 3 Task:
-
+# This project consists of 3 Tasks:
+<br/>
 Task 1- we edit the given source code “exploit.py” so that the buffer overflow attack is successful.
-
+<br/>
 Task 2- we ensure the shell is running as root.
-
+<br/>
 Task 3- Defeat the Address Randomization applied by the operating system.
-
+<br/>
 # Implementation
 In task 1, We have an exploit code called “exploit.py”. we have adjust the variables of the program accordingly and fill in any missing code to fulfill the buffer overflow attack. After you finish adjusting the above program, we run it. After, We have generated the contents for “badfile”. Then we compile and run the vulnerable program "stack.c".
 after we made the vulnerable program run,  we got to be able to get a shell.
