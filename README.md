@@ -27,10 +27,12 @@ after we made the vulnerable program run,  we got to be able to get a shell.
 $ id
 uid=1000(seed) gid=1000(seed) groups=1000(seed)
 ---------------------------------------------------------------------------------------
+
 In task 2, After we made the shell run as root. we got the following output:
 VM# id
 uid=1000(seed) gid=1000(seed) euid=0(root) groups=1000(seed)
 ---------------------------------------------------------------------------------------
+
 In task 3, On 32-bit Linux machines, stacks only have 19 bits of entropy, which means
 the stack base address can have 2^19 = 524, 288 possibilities. This number is not
 that high and can be exhausted easily with the brute-force approach. In this task, we use such an approach to defeat the address randomization countermeasure on our 32- bit VM. First, we turn on Ubuntu’s address randomization using the following
