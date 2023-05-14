@@ -16,7 +16,6 @@ Stack-based buffer overflows are more common, and leverage stack memory that onl
 Heap-based attacks are harder to carry out and involve flooding the memory space allocated for a program beyond memory used for current runtime operations.
 
 # This project consists of 3 Tasks:
-<br/>
 Task 1- we edit the given source code “exploit.py” so that the buffer overflow attack is successful.
 <br/>
 Task 2- we ensure the shell is running as root.
