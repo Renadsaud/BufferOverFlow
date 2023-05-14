@@ -18,7 +18,9 @@ Heap-based attacks are harder to carry out and involve flooding the memory space
 # This project consists of 3 Task:
 
 Task 1- we edit the given source code “exploit.py” so that the buffer overflow attack is successful.
+
 Task 2- we ensure the shell is running as root.
+
 Task 3- Defeat the Address Randomization applied by the operating system.
 
 # Implementation
