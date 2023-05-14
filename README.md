@@ -26,11 +26,13 @@ In task 1, We have an exploit code called “exploit.py”. we have adjust the v
 after we made the vulnerable program run,  we got to be able to get a shell.
 $ id
 uid=1000(seed) gid=1000(seed) groups=1000(seed)
+
 ---------------------------------------------------------------------------------------
 
 In task 2, After we made the shell run as root. we got the following output:
 VM# id
 uid=1000(seed) gid=1000(seed) euid=0(root) groups=1000(seed)
+
 ---------------------------------------------------------------------------------------
 
 In task 3, On 32-bit Linux machines, stacks only have 19 bits of entropy, which means
