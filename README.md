@@ -47,4 +47,4 @@ command:
 sudo /sbin/sysctl -w kernel.randomize_va_space=2
 Then we used the shell script to figure out how to attack the vulnerable program repeatedly.
 
-
+# For more details please check the PDF
