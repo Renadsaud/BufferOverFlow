@@ -1,22 +1,21 @@
 # BufferOverFlow
-Buffer over flow attack on 32-bit Linux machines. we will show how to get a shell, and find a way to obtain root shell. finally, we will use the brute-force approach to defeat the address randomization countermeasure on our 32- bit VM.
+Buffer overflow attack on 32-bit Linux machines. we will show how to get a shell and find a way to obtain a root shell. finally, we will use the brute-force approach to defeat the address randomization countermeasure on our 32-bit VM.
 
 # What is Buffer Overflow
 Buffers are memory storage regions that temporarily hold data while it is being transferred from one location to another. A buffer overflow (or buffer overrun) occurs when the volume of data exceeds the storage capacity of the memory buffer. As a result, the program attempting to write the data to the buffer overwrites adjacent memory locations.
 
 ## Example
-a buffer for log-in credentials may be designed to expect username and password inputs of 8 bytes, so if a transaction involves an input of 10 bytes (that is, 2 bytes more than expected), the program may write the excess data past the buffer boundary.
+A buffer for log-in credentials may be designed to expect username and password inputs of 8 bytes, so if a transaction involves an input of 10 bytes (that is, 2 bytes more than expected), the program may write the excess data past the buffer boundary.
 
 # Buffer Overflow Attack
 Attackers exploit buffer overflow issues by overwriting the memory of an application. This changes the execution path of the program, triggering a response that damages files or exposes private information. For example, an attacker may introduce extra code, sending new instructions to the application to gain access to IT systems.
 
-<div>
   <img src="https://i.ibb.co/bbTgGHT/What-is-a-Buffer-Overflow-Attack-and-How-to-Prevent-It.jpg" alt="What-is-a-Buffer-Overflow-Attack-and-How-to-Prevent-It" border="0">
   
 # Types of Buffer Overflow Attacks
 Stack-based buffer overflows are more common, and leverage stack memory that only exists during the execution time of a function.
 
-Heap-based attacks are harder to carry out and involve flooding the memory space allocated for a program beyond memory used for current runtime operations.
+Heap-based attacks are harder to carry out and involve flooding the memory space allocated for a program beyond the memory used for current runtime operations.
 
 # This project consists of 3 Tasks:
 Task 1- we edit the given source code “exploit.py” so that the buffer overflow attack is successful.
